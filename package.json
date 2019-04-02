@@ -1,0 +1,19 @@
+{
+  "name": "stremio-animepill",
+  "version": "0.0.1",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "dependencies": {
+    "needle": "^2.2.4",
+    "stremio-addon-sdk": "^1.2.0",
+    "async": "^2.6.2",
+    "cheerio": "1.0.0-rc.2",
+    "redis": "^2.8.0",
+    "named-queue": "^2.2.1"
+  },
+  "engines": {
+    "node": "8.10.0"
+  }
+}
